@@ -1,0 +1,25 @@
+.l{
+  &-ft{
+    padding: 40px 0;
+    background: #0f00b5;
+    &-inn{
+      max-width: 1280px;
+      width: 90%;
+      position: relative;
+      margin: auto;
+      &-logo{
+        max-width: 262px;
+        width: 100%;
+        margin: auto;
+      }
+      &-sponser{
+        max-width: 205px;
+        width: 100%;
+        margin: auto;
+        position: absolute;
+        top: -10px;
+        right: 30px;
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.l{
+  &-options{
+    overflow: hidden;
+    padding: 82px 0 77px;
+    &-inner{
+      max-width: 1100px;
+      width: 100%;
+      margin: auto;
+      position: relative;
+      &-ttl{
+        max-width: 660px;
+        position: absolute;
+        top: 10px;
+        left: 90px;
+        h2{
+          font-size: 60.63px;
+          font-size: 6.063rem;
+          font-weight: bold;
+          letter-spacing: -1px;
+          line-height: 1.2;
+          color: #0f005c;
+        }
+        p{
+          font-size: 18.43px;
+          font-size: 1.843rem;
+          font-weight: bold;
+          letter-spacing: 0;
+          margin: 20px 0;
+        }
+      }
+      &-content{
+        figure{
+          img{
+            width: 2140px;
+          }
+        }
+      }
+    }
+    .more-btn{
+      background: #0f001f;
+      text-align: center;
+      a{
+        img{
+          max-width: 295.34px;
+          width: 50%;
+          margin: auto;
+        }
+      }
+    }
+  }
+}

@@ -6,7 +6,7 @@
       infinite: true,
       autoplaySpeed: 0,
       cssEase: 'linear',
-      speed: 5000,
+      speed: 10000,
       slidesToScroll: 1,
       draggable: false,
       focusOnSelect: false,
@@ -19,7 +19,7 @@
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows: false,
+    arrows: true,
     fade: true,
   });
   $navigation.each(function(index){ //サムネイルに連番付与属性

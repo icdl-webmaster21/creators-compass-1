@@ -1,0 +1,33 @@
+.l{
+  &-news{
+    background: #0000ff;
+    color: #fff;
+    &-inner{
+      max-width: 623px;
+      width: 100%;
+      margin: auto;
+      padding: 60px 0 100px;
+      &-ttl{
+        max-width: 147px;
+        width: 100%;
+        margin: auto;
+      }
+      &-content{
+        ul{
+          margin-top: 40px;
+          li{
+            padding: 10px 0;
+            font-size: 16.3px;
+            font-size: 1.63rem;
+            time{
+              width: 115px;
+            }
+            h2{
+              width: calc(100% - 115px);
+            }
+          }
+        }
+      }
+    }
+  }
+}
